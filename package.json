@@ -4,7 +4,7 @@
   "description": "Projeto em desenvolvimento para gerenciar perguntas anônimas dos usuários direcionadas ao dono da página.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "Maria Fernanda Fernandes Ricarte",
