@@ -19,8 +19,6 @@ module.exports = {
         } else {
             res.render('passincorrect', {roomId: roomId})
         }
-        
-
     },
 
     async create(req, res) {
