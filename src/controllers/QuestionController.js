@@ -13,7 +13,7 @@ module.exports = {
             if(action == "delete"){
                 await db.run(`DELETE FROM questions WHERE id = ${questionId}`)
             } else if(action == "check") {
-                await db.run(`UPDATE questions SET read = 1 WHERE id = ${questionId})`)
+                await db.run(`UPDATE questions SET read = 1 WHERE id = ${questionId}`)
             }
         }
         res.redirect(`/room/${roomId}`)

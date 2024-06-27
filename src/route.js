@@ -12,7 +12,5 @@ route.get('/room/:room', RoomController.open)
 
 route.post('/question/create/:room', QuestionController.create)
 route.post('/question/:room/:question/:action', QuestionController.index)
-route.delete('/question/:room/:question/delete', QuestionController.delete)
-route.patch('/question/:room/:question/check', QuestionController.check)
 
 module.exports = route
